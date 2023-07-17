@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
 
@@ -175,6 +176,7 @@ section{
     transition: .5s ease;
 }
 
+
 .btn:hover{
     background: transparent;
     color: var(--main-color);
@@ -193,6 +195,7 @@ section{
     pointer-events: none;
 }
 
+
 .home .profession-container .profession-box{
     position: absolute;
     top: 0;
@@ -205,6 +208,7 @@ section{
     align-items: center;
     animation: professionRotate 13s ease-out infinite;
 }
+
 
 @keyframes professionRotate {
     0%, 20% {
