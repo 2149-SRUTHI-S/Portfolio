@@ -1388,6 +1388,10 @@ main.row {
         padding-left: 10rem;
     }
 
+    #contact_button {
+        display: none;
+    }
+
     #colone, #coltwo {
         margin-bottom: -15rem;
     }
@@ -1515,6 +1519,10 @@ main.row {
         height: 400vh;
     }
 
+    #contact_button {
+        display: none;
+    }
+
 }
 
 @media (max-width: 450px){
@@ -1532,11 +1540,19 @@ main.row {
     .skills-container .skills-box {
         margin-bottom: -5rem;
     }
+
+    #contact_button {
+        display: none;
+    }
 }
 
 @media (max-width: 365px) {
     .about-img img {
         width: 90vw;
+    }
+
+    #contact_button {
+        display: none;
     }
 
     main.row {
