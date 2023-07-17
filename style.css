@@ -1526,6 +1526,103 @@ main.row {
 }
 
 @media (max-width: 450px){
+
+    #contact_button {
+        display: none;
+    }
+
+    main.row {
+        grid-template-columns: 1fr;
+        padding-left: 10rem;
+    }
+
+    #colone, #coltwo {
+        margin-bottom: -14rem;
+    }
+
+    .skills-container .skills-box {
+        margin-bottom: -5rem;
+    }
+}
+
+/* @media (max-width: 450px) {
+    .skills-container .skills-box {
+        margin-bottom: -5rem;
+    }
+} */
+
+@media (max-width: 365px) {
+    .about-img img {
+        width: 90vw;
+    }
+
+    #contact_button {
+        display: none;
+    }
+
+    main.row {
+        grid-template-columns: 1fr;
+        padding-left: 10rem;
+    }
+
+    #colone, #coltwo {
+        margin-bottom: -8rem;
+    }
+
+    /*
+    #skills {
+        margin-top: -20rem;
+    } */
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    /* .skills .heading {
+        margin-bottom:  -1rem;
+    } */
+
+    .skills_head h2 {
+        font-size: 2.8rem;
+    }
+
+    .skills-container {
+        margin-top: -14rem;
+    }
+
+    /* .skills-container .skills-box {
+        margin-bottom: -5rem;
+    } */
+
+    .skills-container .skills-box {
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        margin-bottom: -5rem;
+        flex: 0 1 21rem;
+    }
+
+    .skills-container .skills-box h2 {
+        font-size: 1.6rem;
+    }
+
+    .skills_main {
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
+
+    .skills_section {
+        margin-top: -13rem;
+        height: 395vh;
+    }
+}
+
+/* @media (max-width: 450px){
     main.row {
         grid-template-columns: 1fr;
         padding-left: 10rem;
@@ -1614,3 +1711,4 @@ main.row {
         height: 400vh;
     }
 }
+ */
