@@ -1516,7 +1516,13 @@ main.row {
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
+    .skills-container .skills-box {
+        margin-bottom: -5rem;
+    }
+} 
+
+@media (max-width: 430px){
 
     #contact_button {
         display: none;
@@ -1528,7 +1534,15 @@ main.row {
     }
 
     #colone, #coltwo {
-        margin-bottom: -14rem;
+        margin-bottom: -8rem;
+    }
+
+    .skills_section {
+        margin-top: -19rem;
+    }
+
+    .skills-container {
+        margin-top: -12rem;
     }
 
     .skills-container .skills-box {
@@ -1557,7 +1571,6 @@ main.row {
     }
 
 
-
     .footer {
         flex-direction: column-reverse;
     }
@@ -1567,9 +1580,6 @@ main.row {
         margin-top: 2rem;
     }
 
-    /* .skills .heading {
-        margin-bottom:  -1rem;
-    } */
 
     .skills_head h2 {
         font-size: 2.8rem;
@@ -1579,7 +1589,7 @@ main.row {
         margin-top: -14rem;
     }
 
-  
+
 
     .skills-container .skills-box {
         align-items: center;
@@ -1599,7 +1609,6 @@ main.row {
     }
 
     .skills_section {
-        margin-top: -13rem;
-        height: 395vh;
+        height: 400vh;
     }
 }
