@@ -1,6 +1,6 @@
 # Portfolio
 
-Link: www.sruthi-sivasankararaj.com
+P Link: www.sruthi-sivasankararaj.com
 
 
 ![image](https://github.com/2149-SRUTHI-S/Portfolio/assets/129876043/077c8946-3ae4-4bb6-8fca-62db961141e1)
